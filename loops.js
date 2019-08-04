@@ -1,15 +1,17 @@
 function forLoop(arr){
-  var newArr = []
-  for (i = 0; i < 25; i++)
-    if (i === 1){
-      newArr = ['I am 1 strange loop.'];
-    }
-    else {
-      newArr = [`I am ${i} strange loops.`];
+ 
+  for (i = 0; i < 25; i++){
+    if(i !== 1){
+      arr.push()
     }
     
-    return newArr
+    
 }
+
+
+}
+
+
 
 function whileLoop(number){
   counter = number
