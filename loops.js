@@ -5,9 +5,10 @@ function forLoop(arr){
       arr.push(`I am ${i} strange loops.`)
     }
     else {
-      arr.push
+      arr.push('I am 1 strange loop.')
     }
     
+    return arr
 }
 
 
