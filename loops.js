@@ -1,6 +1,6 @@
 function forLoop(arr){
-  var len = arr.length
-  for (i = 0; i < len; i++)
+  
+  for (i = 0; i < 25; i++)
     if (i === 1){
       arr = ['I am 1 strange loop.'];
     }
